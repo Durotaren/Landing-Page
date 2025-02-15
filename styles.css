@@ -81,10 +81,12 @@ a{
 
 button{
   background-color: #3882F6;
+  color: #F9FAF8;
   width: 120px;
   height: 35px;
   border-radius: 15px;
   margin-top: 9px;
+  font-weight: bold;
 }
 
 .dog-1{
@@ -97,4 +99,65 @@ button{
   font-weight: 900;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.image-container{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.image-dogs{
+  border-radius: 50px;
+}
+
+.text-container{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.text-image{
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.inspiration{
+  margin-top: 40px;
+  background-color: #E5E7EB;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.quote-author{
+  background-color: #E5E7EB;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 1440px;
+  margin-bottom: 50px;
+}
+
+.action-container{
+  margin: auto;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  width: 120vh;
+  height: 150px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  padding: 55px;
+  font-weight: 700;
+}
+
+.btn-last{
+  margin-left: 75px;
+  border: 2px solid white;
 }
