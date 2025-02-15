@@ -7,6 +7,7 @@ html, body{
 *{
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -44,6 +45,7 @@ ul{
   padding-left: 250px;
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: bold;
 }
 
 a{
@@ -53,9 +55,38 @@ a{
 }
 
 .link{
-  padding-top: 6px;
+  padding-top: 5px;
 }
 
 .last{
-  padding-right: 150px;
+  padding-right: 250px;
+}
+
+.hero{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: #1F2937;
+  height: 400px;
+  gap: 200px;
+  padding-top: 50px;
+}
+
+.hero-text{
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  width: 250px;
+}
+
+button{
+  background-color: #3882F6;
+  width: 120px;
+  height: 35px;
+  border-radius: 15px;
+  margin-top: 9px;
+}
+
+.dog-1{
+  border-radius: 150px;
 }
