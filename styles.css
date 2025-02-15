@@ -90,3 +90,11 @@ button{
 .dog-1{
   border-radius: 150px;
 }
+
+.header-2{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 40px;
+}
