@@ -1,7 +1,7 @@
 html, body{
   height: 100%;
   margin: 0;
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 *{
@@ -26,4 +26,36 @@ html, body{
   background-color: #1F2937;
   height: 60px;
   color: white;
+}
+
+.header{
+  background-color: #1F2937;
+}
+
+ul{
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  padding: 8px;
+}
+
+.logo{
+  margin-right: auto;
+  padding-left: 250px;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.link{
+  padding-top: 6px;
+}
+
+.last{
+  padding-right: 150px;
 }
