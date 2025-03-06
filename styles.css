@@ -17,8 +17,6 @@ html, body{
   min-height: 100vh;
 }
 
-
-
 .footer{
   padding: 20px;
   text-align: center;
@@ -40,7 +38,8 @@ ul{
 
 .logo{
   margin-right: auto;
-  padding-left: 250px;
+  margin-left: 6px;
+  text-align: center;
   font-size: 24px;
   color: #F9FAF8;
   font-weight: 500;
@@ -56,17 +55,11 @@ a{
   padding-top: 5px;
 }
 
-.last{
-  padding-right: 250px;
-}
-
 .hero{
   display: flex;
-  flex: 1;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: #1F2937;
   height: 400px;
-  gap: 200px;
   padding-top: 50px;
 }
 
@@ -74,7 +67,8 @@ a{
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 500;
-  width: 250px;
+  max-width: 250px;
+  height: 350px;
 }
 
 button{
