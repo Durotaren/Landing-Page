@@ -124,16 +124,16 @@ button{
   margin: auto;
   background-color: #3882F6;
   color: #E5E7EB;
-  width: 120vh;
-  height: 150px;
+  max-width: 1000rem;
+  height: 135px;
   border-radius: 15px;
   margin-bottom: 50px;
-  padding: 45px;
+  padding: 30px;
   font-weight: 700;
 }
 
 .btn-last{
-  margin-left: 75px;
+  margin-left: 35px;
   border: 2px solid white;
 }
 
@@ -141,7 +141,7 @@ button{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  width: 200px;
+  max-width: 200px;
   height: 100px;
   font-weight: 600;
   padding: 25px;
