@@ -97,8 +97,9 @@ button{
 
 .image-container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 3em;
 }
 
 .image-dogs{
